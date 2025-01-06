@@ -117,6 +117,7 @@ export default function Registration() {
 
           <button type="submit">Register</button>
         </form>
+        <p>Already have an account? <a href="#">Login</a></p>
       </main>
     </>
   );
