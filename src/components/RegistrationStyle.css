@@ -1,0 +1,98 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  input, select, textarea {
+    margin-bottom: 20px;  /* Increased bottom margin to create more space between fields */
+    padding: 8px;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Full Name and Username side by side */
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;  /* Adding space between the two fields */
+  }
+  
+  .input-group div {
+    width: 48%; /* Adjust width to fit side by side */
+  }
+  
+  /* Email and ID side by side */
+  .input-group-email-id {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;  /* Adding space between the two fields */
+  }
+  
+  .input-group-email-id div {
+    width: 48%; /* Adjust width to fit side by side */
+  }
+  
+  /* Password and Confirm Password side by side */
+  .input-group-password {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;  /* Adding space between the two fields */
+  }
+  
+  .input-group-password div {
+    width: 48%; /* Adjust width to fit side by side */
+  }
+  
+  /* Gender labels side by side */
+  .gender-label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .gender-group {
+    display: flex;
+    gap: 20px; /* Space between each radio button and label */
+    margin-top: 10px; /* Space between the gender label and radio group */
+    margin-left: 160px;
+  }
+  
+  .gender-group label {
+    margin-left: 5px; /* Space between the radio button and label */
+    display: flex;
+    align-items: center; /* Vertically align labels with radio buttons */
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px; /* Space between the radio button and its label */
+  }
+  header{
+    font-weight: bold;
+    font-size:25px ;
+    margin-left: 0;
+  }
